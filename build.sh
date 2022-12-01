@@ -1,3 +1,3 @@
 pip install -r requirements.txt
-python3 -m jepthon
+bash start
 echo "jepthon"
