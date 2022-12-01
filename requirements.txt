@@ -30,7 +30,6 @@ google-auth-oauthlib
 gsearch
 gtts
 hachoir
-heroku3
 html-telegraph-poster
 humanize
 jotquote
