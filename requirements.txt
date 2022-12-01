@@ -42,6 +42,7 @@ nekos.py
 patool
 Pillow
 prettytable
+heroku3
 programmingquotes
 psutil
 psycopg2
