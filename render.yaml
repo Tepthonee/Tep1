@@ -3,5 +3,5 @@ services:
    name: jepthon-joker
    env: python
    plan: free
-   startCommand: python3 -m jepthon
+   startCommand: bash start
    autoDeploy: false
