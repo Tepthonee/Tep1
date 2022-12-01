@@ -5,7 +5,7 @@ services:
     env: python
     branch: render
     startCommand: ./build.sh
-    buildCommand: python3 -m jepthon
+    buildCommand: bash start
     envVars:
       - key: SKIP_INSTALL_DEPS
         value: true
