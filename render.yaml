@@ -4,7 +4,7 @@ services:
     name: render-joker
     env: python
     branch: render
-    startCommand: bash start
+    startCommand: pip install -r requirements.txt
     buildCommand: bash start
     envVars:
       - key: SKIP_INSTALL_DEPS
