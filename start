@@ -57,7 +57,7 @@ _run_cat_git() {
     $(_run_python_code 'from git import Repo
 import sys
 OFFICIAL_UPSTREAM_REPO="'$repolink'"
-ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "master"
+ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "Tepthon"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
 origin.fetch()
@@ -83,7 +83,7 @@ _set_bot () {
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
     echo "   ᯽︙ جارِ بدء سورس تيبثون    "
-    python3 -m jepthon
+    python3 -m tep
 }
 
 _set_bot
